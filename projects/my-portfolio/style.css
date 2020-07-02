@@ -1,0 +1,43 @@
+body{margin:0;
+    font-family:'Yellowtail', cursive;}
+h1{font-size:50px;}
+.orange-highlight{color:goldenrod; }
+
+.half-width{width:40%; float: left; margin-left:5%; padding-left:2%;}
+.half-width img{width:100%;}
+
+.top-banner{border:1px solid red;background-image:url("images/top-banner.png"); background-repeat:no-repeat;}
+section{height:500px;}
+
+.link-button{text-decoration:none; 
+    background-image:linear-gradient(lightSalmon, tomato);
+    padding:10px 20px;border-radius:5px;color:white; font-weight:700;}
+
+    .dream-area{ background-image:orange-highlighturl("images/dream-bg.png");
+         background-repeat:no-repeat;background-position:right;}
+
+    .single-experience{
+        box-shadow:10px 10px 45px green;
+        border-radius:5px; height:80%;
+        background-color:white;
+    }
+.experience-area{
+
+    background-image:url("images/exp-bg.png");
+    background-repeat:no-repeat; background-position:left;
+
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, violet, goldenrod);
+    border-image-slice:1;
+
+
+}
+#baby-web{
+border-left:7px solid;
+border-image: linear-gradient(180deg, Blue, orange);
+border-image-slice:1;
+
+}
+footer {text-align:center; font-size:12px; clear:both;}
